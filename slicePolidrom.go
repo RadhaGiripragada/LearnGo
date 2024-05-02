@@ -10,6 +10,7 @@ import (
 func main() {
 	var str string
 	str = "madam kayak radar test thesewords"
+	str = strings.ReplaceAll(str," ","")
 	st, _ := strconv.Atoi(os.Args[1])
 	en, _ := strconv.Atoi(os.Args[2])
 	
